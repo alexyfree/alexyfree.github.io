@@ -1,0 +1,15 @@
+{
+  "name": "alstok",
+  "homepage": "https://github.com/alexyfree/alexyfree.github.io",
+  "description": "kitchen",
+  "main": "index.html",
+  "moduleType": [],
+  "authors": [
+    "Alex"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.8",
+    "bootstrap": "~3.3.6"
+  }
+}
