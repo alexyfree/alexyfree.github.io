@@ -1,0 +1,56 @@
+#myNavbar{
+    background-color: #ffeeaa;
+}
+
+.nav.navbar-nav.navbar.menu{
+    width: 100%;
+}
+
+.nav.navbar-nav.navbar.menu > li{
+    text-align: center;
+}
+
+.nav>li>a:hover, .nav>li>a.active {
+    background-color: #ffeeaa;
+    font-weight: 800;
+}
+
+.nav.navbar-nav.navbar.menu > li > a{
+    color: black;
+    margin-top: 4px;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+
+    border-left: 5px solid green;
+    position: absolute;
+    z-index: 4;
+}
+
+nav>ul>li:nth-child(1)>div.arrow-right{
+    margin: 11% 28%;
+}
+
+nav>ul>li:nth-child(2)>div.arrow-right{
+    margin: 11% 17%;
+}
+
+nav>ul>li:nth-child(3)>div.arrow-right{
+    margin: 11% 24%;
+}
+
+nav>ul>li:nth-child(4)>div.arrow-right{
+    margin: 11% 14%;
+}
+
+nav>ul>li:nth-child(5)>div.arrow-right{
+    margin: 11% 21%;
+}
+
+nav>ul>li:nth-child(6)>div.arrow-right{
+    margin: 11% 10%;
+}
