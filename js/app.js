@@ -11,13 +11,10 @@ alstock.controller('AppCtrl', ['$scope',
                 $("nav>ul>li:nth-child(" + currentActiveTab + ")>a").removeClass("active");
                 currentActiveTab = number;
             }
-            console.log(1);
             $( "nav>ul>li:nth-child(" + number + ")>div" ).addClass("arrow-right");
             $( "nav>ul>li:nth-child(" + number + ")>a" ).addClass("active");
         };
-
         $scope.removeActiveNavigation = function(number){
-            console.log(1);
             if(currentActiveTab !== number) {
                 $("nav>ul>li:nth-child(" + number + ")>div").removeClass("arrow-right");
                 $("nav>ul>li:nth-child(" + number + ")>a").removeClass("active");
