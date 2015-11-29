@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="alstockApp">
 <head>
+    <meta charset="UTF-8">
+    <title>АЛСТОК</title>
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
-    <meta charset="UTF-8">
-    <title>New site</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 </head>
 <body ng-controller="AppCtrl">
-<h1>This content will become site asap!</h1>
-<content>{{alert}}</content>
+<ng-include src="'html/header.html'"></ng-include>
 </body>
 </html>
