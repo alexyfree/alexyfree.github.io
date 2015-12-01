@@ -1,0 +1,73 @@
+.produce-image{
+    width: 145%;
+}
+
+.produce-text{
+    position: absolute;
+    margin: -36% 3%;
+    color: white;
+    padding-left: 10px;
+    opacity: 5.5;
+}
+
+.produce-text > .text1{
+    background-color: rgba(53,49,47,0.8);
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.produce-text > .text2{
+    background-color: rgba(53,49,47,0.8);
+    font-size: 47px;
+    font-weight: 200;
+    position: absolute;
+    margin-top: -0.7%;
+}
+
+.produce-text > .text3{
+    background-color: rgba(53,49,47,0.8);
+    font-size: 47px;
+    font-weight: 200;
+    position: absolute;
+    margin-top: 4.5%;
+}
+
+.produce-text > .text1, .produce-text > .text2, .produce-text > .text3{
+    padding-left: 14px;
+    padding-right: 27px;
+}
+
+.produce-text > .text3 > .inner-bold-text{
+    font-weight: 500;
+}
+
+.produce-menu{
+    margin-top: -177px;
+    margin-left: 38px;
+    color: white;
+}
+
+.produce-menu > li:nth-child(1){
+    width: 228px;
+    font-size: 17px;
+    font-weight: 100;
+    text-align: left;
+}
+
+.produce-menu > li:nth-child(2){
+    width: 210px;
+    font-size: 17px;
+    font-weight: 100;
+    text-align: left;
+}
+
+.produce-menu > li:nth-child(3){
+    width: 262px;
+    font-size: 17px;
+    font-weight: 100;
+    text-align: left;
+}
+
+.produce-menu > li > img{
+    padding-right: 10px;
+}

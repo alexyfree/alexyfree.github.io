@@ -6,7 +6,7 @@
     width: 100%;
 }
 
-.nav.navbar-nav.navbar.menu > li{
+#myNavbar > .nav.navbar-nav.navbar.menu > li{
     text-align: center;
 }
 
