@@ -11,13 +11,11 @@
 }
 
 .produce-text > .text1{
-    background-color: rgba(53,49,47,0.8);
     font-size: 55px;
     font-weight: 500;
 }
 
 .produce-text > .text2{
-    background-color: rgba(53,49,47,0.8);
     font-size: 47px;
     font-weight: 200;
     position: absolute;
@@ -25,7 +23,6 @@
 }
 
 .produce-text > .text3{
-    background-color: rgba(53,49,47,0.8);
     font-size: 47px;
     font-weight: 200;
     position: absolute;
