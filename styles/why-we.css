@@ -1,0 +1,35 @@
+.why-we-image{
+    width: 117%;
+    padding-top: 0.2%;
+}
+
+.why-we > .text-first{
+    position: absolute;
+    margin: -33% 5%;
+    font-weight: 900;
+    font-size: 38px;
+}
+
+.why-we > .line{
+    background: #569e46;
+    width: 6.5%;
+    height: 4px;
+    position: absolute;
+    margin: -28% 5.2%;
+}
+
+.why-we > ul.table{
+    position: absolute;
+    margin: -27% 5%;
+}
+
+.why-we > ul > li{
+    font-size: 19px;
+    padding: 1.3% 0%;
+    clear: left;
+}
+
+.why-we > ul > li > img, .why-we > ul > li > div{
+    float: left;
+    margin-right: 2%;
+}

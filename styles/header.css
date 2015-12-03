@@ -4,8 +4,11 @@
 }
 
 body {
+    overflow-x: hidden;
+    overflow-y:auto;
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
+    height: 1300px;
     background-color: #a6e1ec !important;
 }
 .header{
