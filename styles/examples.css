@@ -1,0 +1,92 @@
+.example{
+    background: linear-gradient(to bottom, white, lightgray);
+}
+.example > .head{
+    font-size: 29px;
+    font-weight: 600;
+    padding-top: 4%;
+}
+
+.example > .line{
+    background: #569e46;
+    width: 5%;
+    height: 4px;
+    position: absolute;
+    margin: 0.5% 6%;
+    left: 41%;
+}
+
+.example .simple-text{
+    margin-top: 2%;
+
+}
+
+.example .featured-img{
+    height: 278px;
+    position: relative;
+}
+
+.example > .work-list > div.for-padding{
+    padding-top: 3%;
+}
+
+.example .layer-for-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.work-space > a{
+    color: black;
+}
+
+.work-space > a > h4 > span{
+    font-weight: 500;
+    border-bottom: 1px dashed black;
+    margin-left: 2%;
+}
+
+.work-space > a > h4{
+    background-color: white;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.work-space > a:hover > .featured-img > .layer-for-image{
+    background-color: rgba(63, 65, 64, 0.7);
+}
+
+.work-space > a:hover > .image-hover{
+    background: url(../img/magnifier.png) no-repeat;
+    position: absolute;
+    top: 39%;
+    left: 44%;
+    width: 100%;
+    height: 100%;
+}
+
+.work-space > a:hover{
+    text-decoration: none;
+}
+
+.work-space > a:hover > h4 > span{
+    font-weight: 500;
+    border-bottom: none;
+    margin-left: 2%;
+}
+
+.work-space > a:hover > h4{
+    background-color: #ffde55;
+}
+
+button.show-more-examples{
+    margin-top: 6%;
+    width: 12%;
+    height: 36px;
+    color: #569e46;
+    border: 2px #569e46 solid;
+    font-size: 17px;
+    background: lightgray;
+}
