@@ -1,0 +1,65 @@
+.mentions{
+    background:  #f2f3f3;
+    height: 1000px;
+}
+
+.mentions .text-head{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    padding-top: 2%;
+}
+
+.mentions .line{
+    background: #569e46;
+    height: 3px;
+}
+
+.mentions > .line{
+    width: 5%;
+    margin: 0.5% auto 3% auto;
+}
+
+.mentions > ul > li > div > .line{
+    width: 8%;
+    margin: 7.5% auto 1% auto;
+    float: left;
+}
+
+.mentions ul{
+    width: 80%;
+    margin: auto 10%;
+}
+
+.mentions li{
+    margin-top: 4%;
+    height: 403px;
+    background: white;
+}
+
+.mentions iframe{
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.mentions > ul > li > div{
+    padding-top: 2%;
+    padding-right: 2%;
+}
+
+.mentions.heart{
+
+}
+
+.mentions .wish-same{
+    margin-left: 2%;
+    border-bottom: 1px dashed black;
+}
+
+.mentions .kitchen-parameters{
+    padding: 36px 0 140px;
+}
+
+.mentions .parameter{
+    padding: 1% 0 1%;
+}
