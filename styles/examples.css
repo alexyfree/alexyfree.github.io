@@ -1,5 +1,5 @@
 .example{
-    background: linear-gradient(to bottom, white, lightgray);
+    /*background: linear-gradient(to bottom, white, #f2f3f3);*/
 }
 .example > .head{
     font-size: 29px;
@@ -88,5 +88,5 @@ button.show-more-examples{
     color: #569e46;
     border: 2px #569e46 solid;
     font-size: 17px;
-    background: lightgray;
+    background: #f2f3f3;
 }
