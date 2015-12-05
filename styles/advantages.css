@@ -1,0 +1,37 @@
+.advantages{
+    background:  white;
+    height: 1050px;
+}
+
+.advantages .text-head{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    padding-top: 6%;
+}
+
+.advantages .line{
+    background: #569e46;
+    height: 3px;
+}
+
+.advantages > .line{
+    width: 5%;
+    margin: 0.5% auto 3% auto;
+}
+
+.advantages li{
+    text-align: center;
+}
+
+.advantages .short-description{
+    padding-top: 5%;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.advantages .full-description{
+    padding-top: 8%;
+    color: grey;
+    font-size: 15px;
+}
