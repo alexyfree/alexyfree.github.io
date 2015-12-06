@@ -1,0 +1,32 @@
+.contacts iframe{
+    float: right;
+}
+
+.contacts-data{
+    background:  white;
+    height: 500px;
+}
+
+.contacts-data .text-head{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    padding-top: 6%;
+}
+
+.contacts-data .line{
+    background: #569e46;
+    height: 3px;
+    width: 15%;
+    margin: 0.5% auto 3% auto;
+}
+
+.contacts-data .text{
+    padding-left: 12%;
+    padding-top: 4%;
+}
+
+.contacts-data img.mts, .contacts-data img.velcom{
+    width: 5%;
+    margin-right: 2%;
+}
