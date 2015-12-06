@@ -1,9 +1,12 @@
+.contacts{
+    background:  #f2f3f3;
+}
+
 .contacts iframe{
     float: right;
 }
 
 .contacts-data{
-    background:  white;
     height: 500px;
 }
 
