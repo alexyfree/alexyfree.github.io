@@ -90,3 +90,8 @@ button.show-more-examples{
     font-size: 17px;
     background: #f2f3f3;
 }
+
+.example .work-list{
+    padding-left: 3%;
+    padding-right: 3%;
+}

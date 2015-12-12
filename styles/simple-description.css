@@ -40,7 +40,7 @@
 
 .produce-menu{
     margin-top: -177px;
-    margin-left: 38px;
+    margin-left: 60px;
     color: white;
 }
 
@@ -67,4 +67,10 @@
 
 .produce-menu > li > img{
     padding-right: 10px;
+}
+
+@media (max-width: 1024px){
+    .produce-menu{
+        margin-top: -98px;
+    }
 }

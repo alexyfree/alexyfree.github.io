@@ -1,6 +1,5 @@
 .why-we-image{
     width: 117%;
-    padding-top: 0.2%;
 }
 
 .why-we > .text-first{
@@ -25,11 +24,17 @@
 
 .why-we > ul > li{
     font-size: 19px;
-    padding: 1.3% 0%;
+    padding: 1.3% 0;
     clear: left;
 }
 
 .why-we > ul > li > img, .why-we > ul > li > div{
     float: left;
     margin-right: 2%;
+}
+
+@media (max-width: 1024px){
+    .why-we > ul > li{
+        padding: 0.4% 0;
+    }
 }
