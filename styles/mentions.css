@@ -52,7 +52,9 @@
 }
 
 .mentions .wish-same{
-    margin-left: 2%;
+    display: block;
+    width: 35%;
+    margin-left: 9%;
     border-bottom: 1px dashed black;
 }
 
@@ -62,4 +64,93 @@
 
 .mentions .parameter{
     padding: 1% 0 1%;
+}
+
+@media (max-width: 1920px){
+    .mentions img{
+        margin-top: -9%;
+    }
+
+    .mentions .wish-same{
+        width: 20%;
+        margin-top: -8.5%;
+    }
+}
+
+@media (max-width: 1680px){
+    .mentions img{
+        margin-top: -9%;
+    }
+
+    .mentions .wish-same{
+        width: 22%;
+        margin-top: -9.5%;
+    }
+}
+
+
+@media (max-width: 1510px){
+    .mentions img{
+        margin-top: -9%;
+    }
+
+    .mentions .wish-same{
+        width: 23%;
+        margin-top: -9.5%;
+    }
+}
+
+@media (max-width: 1440px){
+    .mentions img{
+        margin-top: -9%;
+    }
+
+    .mentions .wish-same{
+        width: 25%;
+        margin-top: -9.5%;
+    }
+}
+
+@media (max-width: 1366px){
+    .mentions img{
+        margin-top: -9%;
+    }
+
+    .mentions .wish-same{
+        width: 27%;
+        margin-top: -10.5%;
+    }
+}
+
+@media (max-width: 1280px){
+    .mentions img{
+        margin-top: -9%;
+    }
+
+    .mentions .wish-same{
+        width: 30%;
+        margin-top: -10.5%;
+    }
+}
+
+@media (max-width: 1150px){
+    .mentions img{
+        margin-top: -22%;
+    }
+
+    .mentions .wish-same{
+        width: 34%;
+        margin-top: -17.5%;
+    }
+}
+
+@media (max-width: 1024px){
+    .mentions img{
+        margin-top: -32%;
+    }
+
+    .mentions .wish-same{
+        width: 35%;
+        margin-top: -23.5%;
+    }
 }

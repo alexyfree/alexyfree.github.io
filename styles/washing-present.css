@@ -70,7 +70,7 @@
 @media (max-width: 1680px){
     .share{
         width: 20%;
-        height: 47%;
+        height: 44%;
         margin: -34% 74%;
     }
 }
@@ -78,7 +78,7 @@
 @media (max-width: 1440px){
     .share{
         width: 24%;
-        height: 47%;
+        height: 49%;
         margin: -38% 74%;
     }
 }
@@ -86,7 +86,7 @@
 @media (max-width: 1366px){
     .share{
         width: 25%;
-        height: 47%;
+        height: 49%;
         margin: -40% 74%;
     }
 }
@@ -94,15 +94,23 @@
 @media (max-width: 1280px){
     .share{
         width: 25%;
-        height: 59%;
+        height: 49%;
         margin: -42% 74%;
+    }
+}
+
+@media (max-width: 1170px)  {
+    .share{
+        width: 32%;
+        height: 50%;
+        margin: -44% 64%;
     }
 }
 
 @media (max-width: 1024px)  {
     .share{
         width: 31%;
-        height: 69%;
+        height: 50%;
         margin: -51% 68%;
     }
 }

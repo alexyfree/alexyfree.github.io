@@ -1,6 +1,5 @@
 .how-it-works{
     background:  #f2f3f3;
-    height: 1300px;
 }
 
 .how-it-works .text-head{
@@ -68,4 +67,71 @@
 
 .how-it-works .kitchen{
     margin-left: 20%;
+}
+
+.how-it-works > img{
+    padding-bottom: 4%;
+}
+
+@media (max-width: 1680px){
+    .how-it-works li:first-child{
+        padding-bottom: 2%;
+    }
+}
+
+@media (max-width: 1680px){
+    .how-it-works li:first-child{
+        padding-bottom: 1%;
+    }
+}
+
+@media (max-width: 1440px){
+    .how-it-works li:first-child{
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 1366px){
+    .how-it-works li.vertical-line.first{
+        margin-top: -2.5%;
+    }
+
+    .how-it-works li.vertical-line.third{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1280px){
+    .how-it-works li.vertical-line.first{
+        margin-top: -3%;
+    }
+}
+
+@media (max-width: 1200px){
+    .how-it-works li.vertical-line.first{
+        margin-top: -4%;
+    }
+
+    .how-it-works li.vertical-line.third{
+        margin-top: -1%;
+    }
+}
+
+@media (max-width: 1100px){
+    .how-it-works li.vertical-line.first{
+        margin-top: -4.5%;
+    }
+
+    .how-it-works li.vertical-line.third{
+        margin-top: -2%;
+    }
+}
+
+@media (max-width: 1024px){
+    .how-it-works li.vertical-line.first{
+        margin-top: -5%;
+    }
+    .how-it-works li.vertical-line.third{
+        margin-top: -3%;
+    }
 }

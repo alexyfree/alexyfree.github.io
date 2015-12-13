@@ -67,3 +67,79 @@
 .designer-part .prepare .description{
     font-weight: 100;
 }
+
+@media (max-width: 1920px){
+    .designer{
+        width: 26%;
+        height: 55%;
+        margin: -38% 67%;
+    }
+}
+
+@media (max-width: 1680px){
+    .designer{
+        width: 26%;
+        height: 55%;
+        margin: -38% 67%;
+    }
+}
+
+@media (max-width: 1440px){
+    .designer{
+        width: 28%;
+        height: 52%;
+        margin: -40% 67%;
+    }
+}
+
+@media (max-width: 1366px){
+    .designer{
+        width: 28%;
+        height: 52%;
+        margin: -40% 67%;
+    }
+}
+
+@media (max-width: 1280px){
+    .designer{
+        width: 27%;
+        height: 48%;
+        margin: -42% 67%;
+    }
+
+    .designer ul.form{
+        padding: 0 23px;
+    }
+
+    .designer .text1{
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 1120px){
+    .designer{
+        width: 27%;
+        height: 45%;
+        margin: -42% 67%;
+    }
+
+    .designer .text1{
+        margin-bottom: -4%;
+    }
+}
+
+@media (max-width: 1024px){
+    .designer{
+        width: 27%;
+        height: 44%;
+        margin: -42.5% 67%;
+    }
+
+    .designer .text1{
+        margin-bottom: -7%;
+    }
+
+    .designer .text2{
+        margin-bottom: -7%;
+    }
+}
