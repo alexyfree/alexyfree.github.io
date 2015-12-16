@@ -10,6 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "angular": "~1.4.8",
-    "bootstrap": "~3.3.6"
+    "bootstrap": "~3.3.6",
+    "lightbox2": "lightbox#~2.8.1",
+    "angular-bootstrap": "~0.14.3"
   }
 }

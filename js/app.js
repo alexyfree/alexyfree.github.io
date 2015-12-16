@@ -1,9 +1,9 @@
 'use strict';
 
-var alstock = angular.module('alstockApp', []);
+var alstock = angular.module('alstockApp', ['ui.bootstrap']);
 
-alstock.controller('AppCtrl', ['$scope',
-    function ($scope) {
+alstock.controller('AppCtrl', ['$scope', '$modal',
+    function ($scope, $modal) {
         var currentActiveTab = 1;
         $scope.setActiveNavigation = function(number, type){
             if(type === "click"){
@@ -19,5 +19,22 @@ alstock.controller('AppCtrl', ['$scope',
                 $("nav>ul>li:nth-child(" + number + ")>div").removeClass("arrow-right");
                 $("nav>ul>li:nth-child(" + number + ")>a").removeClass("active");
             }
+        };
+
+        $scope.open = function () {
+            //$('body').addClass('scroll-disable');
+            var modalInstance = $modal.open({
+                templateUrl: 'html/popup1.html',
+                controller: "AppCtrl",
+                size: "size",
+                resolve: {
+                    items: function () {
+                        return [];
+                    },
+                    closable: true
+                },
+                backdrop: 'static',
+                keyboard: false
+            });
         };
     }]);
