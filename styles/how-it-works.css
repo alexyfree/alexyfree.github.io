@@ -139,4 +139,9 @@
     .how-it-works li.vertical-line.third{
         margin-top: -3%;
     }
+
+    .how-it-works .arrow img{
+        margin-left: -91%;
+        margin-top: 2%;
+    }
 }

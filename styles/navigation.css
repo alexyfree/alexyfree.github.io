@@ -226,7 +226,7 @@ nav>ul>li:nth-child(6)>div.arrow-right{
         margin: 14% 4%;
     }
 
-    nav>ul>li:nth-child(4)>a.active{
+    nav>ul>li:nth-child(4)>a{
         width: 141px;
     }
 
