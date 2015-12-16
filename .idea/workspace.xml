@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28029106-7cef-419d-b926-483e566475dc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/assembly_icon.png" afterPath="$PROJECT_DIR$/img/assembly_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/credit_icon.png" afterPath="$PROJECT_DIR$/img/credit_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contacts.html" afterPath="$PROJECT_DIR$/html/contacts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/how-it-works.css" afterPath="$PROJECT_DIR$/styles/how-it-works.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/navigation.css" afterPath="$PROJECT_DIR$/styles/navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/designer.css" afterPath="$PROJECT_DIR$/styles/designer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/questions.css" afterPath="$PROJECT_DIR$/styles/questions.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/washing-present.css" afterPath="$PROJECT_DIR$/styles/washing-present.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/why-we.css" afterPath="$PROJECT_DIR$/styles/why-we.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alexyfree.github.io.iws" />
@@ -30,26 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="simple-description.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/simple-description.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="why-we.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/why-we.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="examples.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/examples.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,31 +66,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pc-adapt.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/pc-adapt.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="washing-present.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/washing-present.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="designer.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/designer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="questions.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/questions.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.805726">
+              <caret line="129" column="18" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3146853">
-              <caret line="15" column="104" selection-start-line="15" selection-start-column="104" selection-end-line="15" selection-end-column="104" />
+            <state vertical-scroll-proportion="-5.625">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple-description.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/simple-description.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -165,8 +161,6 @@
         <option value="$PROJECT_DIR$/styles/pc-adapt.css" />
         <option value="$PROJECT_DIR$/html/mentions.html" />
         <option value="$PROJECT_DIR$/styles/mentions.css" />
-        <option value="$PROJECT_DIR$/styles/designer.css" />
-        <option value="$PROJECT_DIR$/styles/questions.css" />
         <option value="$PROJECT_DIR$/styles/footer.css" />
         <option value="$PROJECT_DIR$/js/prototype.js" />
         <option value="$PROJECT_DIR$/js/shadowbox-prototype.js" />
@@ -183,9 +177,11 @@
         <option value="$PROJECT_DIR$/html/how-it-works.html" />
         <option value="$PROJECT_DIR$/styles/navigation.css" />
         <option value="$PROJECT_DIR$/styles/why-we.css" />
-        <option value="$PROJECT_DIR$/styles/washing-present.css" />
         <option value="$PROJECT_DIR$/styles/how-it-works.css" />
         <option value="$PROJECT_DIR$/html/contacts.html" />
+        <option value="$PROJECT_DIR$/styles/washing-present.css" />
+        <option value="$PROJECT_DIR$/styles/designer.css" />
+        <option value="$PROJECT_DIR$/styles/questions.css" />
       </list>
     </option>
   </component>
@@ -197,8 +193,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -362,14 +358,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21894094" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29371583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18927065" sideWeight="0.4949495" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.4949495" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18927065" sideWeight="0.5050505" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -574,20 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/designer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/questions.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -664,14 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
           <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/simple-description.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -764,18 +738,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/washing-present.css">
+    <entry file="file://$PROJECT_DIR$/html/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/contacts.html">
+    <entry file="file://$PROJECT_DIR$/html/simple-description.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3146853">
-          <caret line="15" column="104" selection-start-line="15" selection-start-column="104" selection-end-line="15" selection-end-column="104" />
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/washing-present.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/designer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/questions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.805726">
+          <caret line="129" column="18" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
           <folding />
         </state>
       </provider>

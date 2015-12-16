@@ -71,7 +71,7 @@
 @media (max-width: 1920px){
     .designer{
         width: 26%;
-        height: 55%;
+        height: 440px;
         margin: -38% 67%;
     }
 }
@@ -79,7 +79,7 @@
 @media (max-width: 1680px){
     .designer{
         width: 26%;
-        height: 55%;
+        height: 440px;
         margin: -38% 67%;
     }
 }
@@ -87,7 +87,7 @@
 @media (max-width: 1440px){
     .designer{
         width: 28%;
-        height: 52%;
+        height: 440px;
         margin: -40% 67%;
     }
 }
@@ -95,7 +95,7 @@
 @media (max-width: 1366px){
     .designer{
         width: 28%;
-        height: 52%;
+        height: 435px;
         margin: -40% 67%;
     }
 }
@@ -103,7 +103,7 @@
 @media (max-width: 1280px){
     .designer{
         width: 27%;
-        height: 48%;
+        height: 401px;
         margin: -42% 67%;
     }
 
@@ -119,7 +119,7 @@
 @media (max-width: 1120px){
     .designer{
         width: 27%;
-        height: 45%;
+        height: 390px;
         margin: -42% 67%;
     }
 
@@ -131,7 +131,7 @@
 @media (max-width: 1024px){
     .designer{
         width: 27%;
-        height: 44%;
+        height: 412px;
         margin: -42.5% 67%;
     }
 
