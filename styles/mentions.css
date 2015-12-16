@@ -22,7 +22,7 @@
 
 .mentions > ul > li > div > .line{
     width: 8%;
-    margin: 7.5% auto 1% auto;
+    margin: 7.5% auto -1% auto;
     float: left;
 }
 
@@ -100,13 +100,24 @@
     }
 }
 
+@media (max-width: 1485px){
+    .mentions img{
+        margin-top: -9%;
+    }
+
+    .mentions .wish-same{
+        width: 27%;
+        margin-top: -9.5%;
+    }
+}
+
 @media (max-width: 1440px){
     .mentions img{
         margin-top: -9%;
     }
 
     .mentions .wish-same{
-        width: 25%;
+        width: 26%;
         margin-top: -9.5%;
     }
 }
@@ -130,6 +141,17 @@
     .mentions .wish-same{
         width: 30%;
         margin-top: -10.5%;
+    }
+}
+
+@media (max-width: 1258px){
+    .mentions img{
+        margin-top: -18%;
+    }
+
+    .mentions .wish-same{
+        width: 30%;
+        margin-top: -14.5%;
     }
 }
 

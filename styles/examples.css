@@ -42,12 +42,6 @@
     color: black;
 }
 
-.work-space > a > h4 > span{
-    font-weight: 500;
-    border-bottom: 1px dashed black;
-    margin-left: 2%;
-}
-
 .work-space > a > h4{
     background-color: white;
     margin: 0px;
@@ -73,7 +67,6 @@
 
 .work-space > a:hover > h4 > span{
     font-weight: 500;
-    border-bottom: none;
     margin-left: 2%;
 }
 

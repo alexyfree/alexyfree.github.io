@@ -31,9 +31,10 @@
     opacity: 0.7;
 }
 
-.questions-form .text > a{
+.questions-form .text > a, .questions-form .text > a:hover{
     color: green;
     border-bottom: 1px dashed green;
+    text-decoration: none;
 }
 
 .questions-form .send-questions{
