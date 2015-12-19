@@ -1,17 +1,17 @@
 <div class="questions">
     <img src="/img/footer_img.jpg"/>
-    <form class="questions-form">
+    <form class="questions-form" ng-submit="sendEmail('Остались вопросы')">
         <div class="text-head">Остались вопросы?</div>
         <div class="line"></div>
         <div class="text">Вы можете <a href="/">заказать обратный звонок</a><br/>или задать их через форму обратной связи</div>
         <ul>
             <li>
                 <span>E-MAIL или ТЕЛЕФОН</span>
-                <input type="text">
+                <input type="text" ng-model="dataEmail.phone">
             </li>
             <li>
                 <span>ВАШ ВОПРОС</span>
-                <textarea></textarea>
+                <textarea ng-model="dataEmail.question"></textarea>
             </li>
         </ul>
         <button type="submit" class="send-questions">Получить консультацию</button><br>

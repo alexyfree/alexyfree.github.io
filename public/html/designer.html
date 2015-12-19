@@ -6,21 +6,21 @@
         <li class="description">Рекомендации по подбору материалов и выбору цвета кухни;</li>
         <li class="description">Расчёт времени изготовления и стоимость заказа</li>
     </ul>
-    <form class="designer">
+    <form class="designer" ng-submit="sendEmail('Заказать бесплатную консультацию дизайнера')">
         <div class="text1">Не определились<br>с дизайном?</div>
         <div class="text2">Доверьтесь нашему профессионалу Алексею, <br>который создаст для вас бесплатно эксклюзивный проект.</div>
         <ul class="form">
             <li>
                 <span>ВАШЕ ИМЯ:</span>
-                <input type="text" placeholder="Как к вам обращаться">
+                <input type="text" placeholder="Как к вам обращаться" ng-model="dataEmail.name">
             </li>
             <li>
                 <span>НОМЕР ТЕЛЕФОНА*:</span>
-                <input type="tel" placeholder="+375">
+                <input type="tel" placeholder="+375" ng-model="dataEmail.phone">
             </li>
             <li>
                 <span>E-MAIL:</span>
-                <input type="email" placeholder="Отправим вам на почту что-то клёвое">
+                <input type="email" placeholder="Отправим вам на почту что-то клёвое" ng-model="dataEmail.email">
             </li>
         </ul>
         <button type="submit" class="consult">Заказать бесплатную консультацию</button><br>

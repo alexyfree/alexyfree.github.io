@@ -5,6 +5,13 @@ var alstock = angular.module('alstockApp', ['ui.bootstrap']);
 alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http',
     function ($scope, $uibModal, $http) {
         var currentActiveTab = 1;
+        $scope.dataEmail = {
+            name: "",
+            phone: "",
+            email: "",
+            question: "",
+            description: ""
+        };
         $scope.setActiveNavigation = function(number, type){
             if(type === "click"){
                 $("nav>ul>li:nth-child(" + currentActiveTab + ")>div").removeClass("arrow-right");
@@ -32,11 +39,37 @@ alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http',
         $scope.returnEmail = function(){
             $scope.open('html/return-call.html');
         };
+
+        $scope.sendEmail = function(desc){
+            console.log("sendEmail");
+            $scope.dataEmail.description = desc;
+            var req = {
+                method: 'POST',
+                url: '/send-email?name=' + $scope.dataEmail.name + '&phone=' + $scope.dataEmail.phone +
+                '&email=' + $scope.dataEmail.email + '&question=' + $scope.dataEmail.question +
+                '&description=' + $scope.dataEmail.description
+            };
+
+            $http(req).then(
+                function(data){
+                    $scope.dataEmail = {
+                        name: "",
+                        phone: "",
+                        email: "",
+                        question: "",
+                        description: ""
+                    };
+                    $scope.open('html/just-prompt-circle.html');
+                },
+                function(error){
+                    $scope.dataEmail = {};
+                    console.log("error");
+                });
+        };
     }]);
 
 alstock.controller('ModalCtrl', ['$scope', '$http', '$uibModalInstance',
     function ($scope, $http, $uibModalInstance) {
-        $(".modal-dialog").hide();
         $scope.open = true;
         $scope.isSuccessSendEmail = false;
 

@@ -20,11 +20,11 @@ app.post('/send-email',function(req,res){
         }
     });
 
-    var htmlText = (query.name ? "Имя: " + query.name + "<br>" : "") +
-        (query.phone ? "Телефон: " + query.phone + "<br>" : "") +
-        (query.email ? "Email: " + query.email + "<br>" : "") +
-        (query.question ? "Вопрос: " + query.question + "<br>" : "") +
-        (query.description ? "Цель: " + query.description : "");
+    var htmlText = (query.name != null ? ("Имя: " + query.name + "<br>") : "") +
+        (query.phone != null ? ("Телефон: " + query.phone + "<br>") : "") +
+        (query.email != null ? ("Email: " + query.email + "<br>") : "") +
+        (query.question != null ? ("Вопрос: " + query.question + "<br>") : "") +
+        (query.description != null ? ("Цель: " + query.description) : "");
 
     var mailOptions = {
         from: 'bykovski.work@gmail.com', // sender address

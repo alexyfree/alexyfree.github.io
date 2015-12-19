@@ -1,6 +1,6 @@
 <div>
     <img src="/img/action_img.png"/>
-    <form class="share">
+    <form class="share" ng-submit="sendEmail('Мойка для кухни в подарок')">
         <span class="text1">АКЦИЯ:</span><br>
         <span class="text2">МОЙКА ДЛЯ КУХНИ В ПОДАРОК!</span><br>
         <div class="text3">Закажите разработку 3d макета кухни<br> и получите мойку в подарок.</div>
@@ -8,15 +8,15 @@
         <ul>
             <li>
                 <span>ВАШЕ ИМЯ:</span>
-                <input type="text" placeholder="Как к вам обращаться">
+                <input type="text" placeholder="Как к вам обращаться" ng-model="dataEmail.name">
             </li>
             <li>
                 <span>НОМЕР ТЕЛЕФОНА*:</span>
-                <input type="tel" placeholder="+375">
+                <input type="tel" placeholder="+375" ng-model="dataEmail.phone">
             </li>
             <li>
                 <span>E-MAIL:</span>
-                <input type="email" placeholder="Отправим вам на почту что-то клёвое">
+                <input type="email" placeholder="Отправим вам на почту что-то клёвое" ng-model="dataEmail.email">
             </li>
         </ul>
         <button type="submit" class="get-present">Получить подарок</button><br>

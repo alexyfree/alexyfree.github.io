@@ -53,7 +53,7 @@
 }
 
 .work-space > a:hover > .image-hover{
-    background: url(../public/img/magnifier.png) no-repeat;
+    background: url(/img/magnifier.png) no-repeat;
     position: absolute;
     top: 39%;
     left: 44%;
