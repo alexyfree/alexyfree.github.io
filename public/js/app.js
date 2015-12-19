@@ -2,8 +2,8 @@
 
 var alstock = angular.module('alstockApp', ['ui.bootstrap']);
 
-alstock.controller('AppCtrl', ['$scope', '$modal',
-    function ($scope, $modal) {
+alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http',
+    function ($scope, $uibModal, $http) {
         var currentActiveTab = 1;
         $scope.setActiveNavigation = function(number, type){
             if(type === "click"){
@@ -21,20 +21,59 @@ alstock.controller('AppCtrl', ['$scope', '$modal',
             }
         };
 
-        $scope.open = function () {
+        $scope.open = function (template) {
             //$('body').addClass('scroll-disable');
-            var modalInstance = $modal.open({
-                templateUrl: 'html/popup1.html',
-                controller: "AppCtrl",
-                size: "size",
-                resolve: {
-                    items: function () {
-                        return [];
-                    },
-                    closable: true
-                },
-                backdrop: 'static',
-                keyboard: false
+            var modalInstance = $uibModal.open({
+                templateUrl: template,
+                controller: "ModalCtrl"
             });
         };
+
+        $scope.returnEmail = function(){
+            $scope.open('html/return-call.html');
+        };
+    }]);
+
+alstock.controller('ModalCtrl', ['$scope', '$http', '$uibModalInstance',
+    function ($scope, $http, $uibModalInstance) {
+        $(".modal-dialog").hide();
+        $scope.open = true;
+        $scope.isSuccessSendEmail = false;
+
+        $scope.data = {
+            name: "",
+            phone: "",
+            email: "",
+            question: "",
+            description: ""
+        };
+
+        $scope.sendEmail = function(desc){
+            console.log("sendEmail");
+            $scope.data.description = desc;
+            var req = {
+                method: 'POST',
+                url: '/send-email?name=' + $scope.data.name + '&phone=' + $scope.data.phone +
+                '&email=' + $scope.data.email + '&question=' + $scope.data.question +
+                '&description=' + $scope.data.description
+            };
+
+            $http(req).then(
+                function(data){
+                    $scope.isSuccessSendEmail = true;
+                },
+                function(error){console.log("error");});
+        };
+
+        $(document).click(function(event) {
+            if ($(event.target).closest(".return-call").length) return;
+            if($(".modal-backdrop .in").length){
+                $scope.close();
+            }
+        });
+
+        $scope.close = function(){
+            $scope.open = false;
+            $uibModalInstance.dismiss('cancel');
+        }
     }]);

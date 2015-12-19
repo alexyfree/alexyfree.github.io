@@ -1,0 +1,18 @@
+<form class="return-call">
+    <div class="close-modal" ng-click="close()">&times;</div>
+    <div class="text2">ЗАКАЗАТЬ ЗВОНОК</div><br>
+    <div class="text3">Оставьте свои контакты и наши</br>менеджеры с Вами свяжутся</div>
+    <ul>
+        <li>
+            <span>ВАШЕ ИМЯ:</span>
+            <input type="text" placeholder="Как к вам обращаться" ng-model="data.name">
+        </li>
+        <li>
+            <span>НОМЕР ТЕЛЕФОНА*:</span>
+            <input type="tel" placeholder="+375" ng-model="data.phone">
+        </li>
+    </ul>
+    <button type="submit" ng-click="sendEmail('Заказать обратный звонок');">Заказать обратный звонок</button><br>
+</form>
+
+<ng-include class="return-call-prompt" src="'html/prompt-circle.html'"></ng-include>

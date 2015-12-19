@@ -2,405 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28029106-7cef-419d-b926-483e566475dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/contacts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/designer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/styles/examples.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/examples.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/express.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/how-it-works.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/questions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/request.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/response.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/styles/roboto.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/simple-description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express/lib/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/washing-present.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/contacts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/designer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/examples.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/how-it-works.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/questions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/simple-description.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/washing-present.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/examples.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/roboto.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/.bower.json" afterPath="$PROJECT_DIR$/public/bower_components/angular-bootstrap/.bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/.gitignore" afterPath="$PROJECT_DIR$/public/bower_components/angular-bootstrap/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/.npmignore" afterPath="$PROJECT_DIR$/public/bower_components/angular-bootstrap/.npmignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/README.md" afterPath="$PROJECT_DIR$/public/bower_components/angular-bootstrap/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/bower.json" afterPath="$PROJECT_DIR$/public/bower_components/angular-bootstrap/bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/index.js" afterPath="$PROJECT_DIR$/public/bower_components/angular-bootstrap/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/package.json" afterPath="$PROJECT_DIR$/public/bower_components/angular-bootstrap/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap-csp.css" afterPath="$PROJECT_DIR$/public/bower_components/angular-bootstrap/ui-bootstrap-csp.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap-tpls.js" afterPath="$PROJECT_DIR$/public/bower_components/angular-bootstrap/ui-bootstrap-tpls.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js" afterPath="$PROJECT_DIR$/public/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap.js" afterPath="$PROJECT_DIR$/public/bower_components/angular-bootstrap/ui-bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap.min.js" afterPath="$PROJECT_DIR$/public/bower_components/angular-bootstrap/ui-bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular/.bower.json" afterPath="$PROJECT_DIR$/public/bower_components/angular/.bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular/README.md" afterPath="$PROJECT_DIR$/public/bower_components/angular/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular/angular-csp.css" afterPath="$PROJECT_DIR$/public/bower_components/angular/angular-csp.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular/angular.js" afterPath="$PROJECT_DIR$/public/bower_components/angular/angular.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js" afterPath="$PROJECT_DIR$/public/bower_components/angular/angular.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/public/bower_components/angular/angular.min.js.gzip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/public/bower_components/angular/angular.min.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular/bower.json" afterPath="$PROJECT_DIR$/public/bower_components/angular/bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular/index.js" afterPath="$PROJECT_DIR$/public/bower_components/angular/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/angular/package.json" afterPath="$PROJECT_DIR$/public/bower_components/angular/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/.bower.json" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/.bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/CHANGELOG.md" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/CHANGELOG.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/Gruntfile.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/Gruntfile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/LICENSE" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/README.md" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/bower.json" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap-theme.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/js/npm.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/js/npm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/.jshintrc" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/grunt/.jshintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-commonjs-generator.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/grunt/bs-commonjs-generator.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-raw-files-generator.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/grunt/bs-raw-files-generator.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/configBridge.json" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/grunt/configBridge.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/sauce_browsers.yml" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/grunt/sauce_browsers.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/.jscsrc" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/.jscsrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/.jshintrc" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/.jshintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/affix.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/affix.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/alert.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/alert.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/button.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/button.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/carousel.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/carousel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/collapse.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/collapse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/dropdown.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/dropdown.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/modal.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/modal.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/popover.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/popover.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/scrollspy.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/scrollspy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/tab.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/tab.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/tooltip.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/tooltip.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/transition.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/transition.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/.csscomb.json" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/.csscomb.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/.csslintrc" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/.csslintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/alerts.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/alerts.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/badges.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/badges.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/bootstrap.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/bootstrap.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/breadcrumbs.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/button-groups.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/button-groups.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/buttons.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/buttons.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/carousel.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/carousel.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/close.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/close.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/code.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/code.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/component-animations.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/component-animations.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/dropdowns.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/dropdowns.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/forms.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/forms.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/glyphicons.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/glyphicons.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/grid.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/grid.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/input-groups.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/input-groups.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/jumbotron.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/jumbotron.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/labels.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/labels.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/list-group.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/list-group.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/media.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/media.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/alerts.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/alerts.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/background-variant.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/background-variant.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/border-radius.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/border-radius.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/buttons.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/buttons.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/center-block.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/center-block.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/clearfix.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/clearfix.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/forms.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/forms.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/gradients.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/gradients.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/grid-framework.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/grid-framework.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/grid.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/grid.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/hide-text.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/hide-text.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/image.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/image.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/labels.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/labels.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/list-group.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/list-group.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/nav-divider.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/nav-divider.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/nav-vertical-align.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/nav-vertical-align.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/opacity.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/opacity.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/pagination.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/pagination.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/panels.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/panels.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/progress-bar.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/progress-bar.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/reset-filter.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/reset-filter.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/reset-text.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/reset-text.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/resize.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/resize.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/responsive-visibility.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/responsive-visibility.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/size.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/size.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/tab-focus.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/tab-focus.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/table-row.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/table-row.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/text-emphasis.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/text-emphasis.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/text-overflow.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/text-overflow.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/vendor-prefixes.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/vendor-prefixes.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/modals.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/modals.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/navbar.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/navbar.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/navs.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/navs.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/normalize.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/normalize.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/pager.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/pager.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/pagination.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/pagination.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/panels.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/panels.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/popovers.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/popovers.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/print.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/print.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/progress-bars.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/progress-bars.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/responsive-embed.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/responsive-embed.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/responsive-utilities.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/responsive-utilities.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/scaffolding.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/scaffolding.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/tables.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/tables.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/theme.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/theme.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/thumbnails.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/thumbnails.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/tooltip.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/tooltip.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/type.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/type.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/utilities.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/utilities.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/variables.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/variables.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/wells.less" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/wells.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/nuget/MyGet.ps1" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/nuget/MyGet.ps1" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/nuget/bootstrap.less.nuspec" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/nuget/bootstrap.less.nuspec" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/nuget/bootstrap.nuspec" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/nuget/bootstrap.nuspec" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/package.js" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/package.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/package.json" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/.bower.json" afterPath="$PROJECT_DIR$/public/bower_components/jquery/.bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/MIT-LICENSE.txt" afterPath="$PROJECT_DIR$/public/bower_components/jquery/MIT-LICENSE.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/bower.json" afterPath="$PROJECT_DIR$/public/bower_components/jquery/bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/dist/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/dist/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/public/bower_components/jquery/dist/jquery.min.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/jsonp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/load.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/parseJSON.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/parseJSON.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/parseXML.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/nonce.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/var/nonce.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/rquery.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/var/rquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/xhr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes/attr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes/classes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes/prop.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes/support.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes/val.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/callbacks.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/access.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/init.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/parseHTML.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/ready.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/var/rsingleTag.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/var/rsingleTag.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/addGetHookIf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/curCSS.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/defaultDisplay.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/defaultDisplay.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/support.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/swap.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/swap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/cssExpand.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/cssExpand.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/getStyles.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/getStyles.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/isHidden.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/isHidden.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rmargin.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/rmargin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rnumnonpx.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/rnumnonpx.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/data/Data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/accepts.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/data/accepts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/var/data_priv.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/data/var/data_priv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/var/data_user.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/data/var/data_user.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/deferred.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/deprecated.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/dimensions.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/effects.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/effects/Tween.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/effects/animatedSelector.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/event.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/event.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/ajax.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/event/ajax.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/event/alias.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/event/support.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/exports/amd.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/exports/global.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/intro.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/intro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/_evalUrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/support.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/offset.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/offset.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/outro.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/outro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/queue.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/queue.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/queue/delay.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/selector-native.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/selector-sizzle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/selector.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/serialize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/sizzle/dist/sizzle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.min.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/sizzle/dist/sizzle.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.min.map" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/sizzle/dist/sizzle.min.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/traversing.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/traversing/findFilter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/rneedsContext.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/arr.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/arr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/class2type.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/class2type.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/concat.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/concat.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/hasOwn.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/hasOwn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/indexOf.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/indexOf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/pnum.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/pnum.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/push.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/push.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/rnotwhite.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/rnotwhite.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/slice.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/slice.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/strundefined.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/strundefined.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/support.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/support.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/toString.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/wrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-black.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-black.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-black.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-black.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-black.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-black.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-blackitalic.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-blackitalic.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-blackitalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-blackitalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-blackitalic.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-blackitalic.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-bold.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-bold.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-bold.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-bold.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-bold.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-boldcondensed.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-boldcondensed.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-boldcondensed.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-boldcondensed.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-boldcondensed.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-boldcondensed.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-boldcondenseditalic.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-boldcondenseditalic.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-boldcondenseditalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-boldcondenseditalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-boldcondenseditalic.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-boldcondenseditalic.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-bolditalic.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-bolditalic.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-bolditalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-bolditalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-bolditalic.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-bolditalic.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-condensed.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-condensed.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-condensed.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-condensed.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-condensed.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-condensed.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-condenseditalic.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-condenseditalic.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-condenseditalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-condenseditalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-condenseditalic.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-condenseditalic.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-italic.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-italic.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-italic.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-italic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-italic.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-italic.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-light.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-light.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-light.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-light.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-light.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-light.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-lightitalic.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-lightitalic.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-lightitalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-lightitalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-lightitalic.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-lightitalic.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-medium.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-medium.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-medium.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-medium.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-medium.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-medium.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-mediumitalic.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-mediumitalic.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-mediumitalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-mediumitalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-mediumitalic.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-mediumitalic.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-regular.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-regular.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-regular.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-thin.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-thin.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-thin.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-thin.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-thin.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-thin.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-thinitalic.eot" afterPath="$PROJECT_DIR$/public/fonts/roboto-thinitalic.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-thinitalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/roboto-thinitalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/roboto-thinitalic.woff" afterPath="$PROJECT_DIR$/public/fonts/roboto-thinitalic.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotocondensed-light.eot" afterPath="$PROJECT_DIR$/public/fonts/robotocondensed-light.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotocondensed-light.ttf" afterPath="$PROJECT_DIR$/public/fonts/robotocondensed-light.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotocondensed-light.woff" afterPath="$PROJECT_DIR$/public/fonts/robotocondensed-light.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotocondensed-lightitalic.eot" afterPath="$PROJECT_DIR$/public/fonts/robotocondensed-lightitalic.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotocondensed-lightitalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/robotocondensed-lightitalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotocondensed-lightitalic.woff" afterPath="$PROJECT_DIR$/public/fonts/robotocondensed-lightitalic.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotoslab-bold.eot" afterPath="$PROJECT_DIR$/public/fonts/robotoslab-bold.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotoslab-bold.ttf" afterPath="$PROJECT_DIR$/public/fonts/robotoslab-bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotoslab-bold.woff" afterPath="$PROJECT_DIR$/public/fonts/robotoslab-bold.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotoslab-light.eot" afterPath="$PROJECT_DIR$/public/fonts/robotoslab-light.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotoslab-light.ttf" afterPath="$PROJECT_DIR$/public/fonts/robotoslab-light.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotoslab-light.woff" afterPath="$PROJECT_DIR$/public/fonts/robotoslab-light.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotoslab-regular.eot" afterPath="$PROJECT_DIR$/public/fonts/robotoslab-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotoslab-regular.ttf" afterPath="$PROJECT_DIR$/public/fonts/robotoslab-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotoslab-regular.woff" afterPath="$PROJECT_DIR$/public/fonts/robotoslab-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotoslab-thin.eot" afterPath="$PROJECT_DIR$/public/fonts/robotoslab-thin.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotoslab-thin.ttf" afterPath="$PROJECT_DIR$/public/fonts/robotoslab-thin.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/robotoslab-thin.woff" afterPath="$PROJECT_DIR$/public/fonts/robotoslab-thin.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/advantages.html" afterPath="$PROJECT_DIR$/public/html/advantages.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/footer.html" afterPath="$PROJECT_DIR$/public/html/footer.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/header.html" afterPath="$PROJECT_DIR$/public/html/header.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/mentions.html" afterPath="$PROJECT_DIR$/public/html/mentions.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/navigation.html" afterPath="$PROJECT_DIR$/public/html/navigation.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/popup1.html" afterPath="$PROJECT_DIR$/public/html/popup1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/why-we.html" afterPath="$PROJECT_DIR$/public/html/why-we.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/1.png" afterPath="$PROJECT_DIR$/public/img/1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/2.png" afterPath="$PROJECT_DIR$/public/img/2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/3.png" afterPath="$PROJECT_DIR$/public/img/3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/4.png" afterPath="$PROJECT_DIR$/public/img/4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/5.png" afterPath="$PROJECT_DIR$/public/img/5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/action_img.png" afterPath="$PROJECT_DIR$/public/img/action_img.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/arrow_down.png" afterPath="$PROJECT_DIR$/public/img/arrow_down.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/assembly_icon.png" afterPath="$PROJECT_DIR$/public/img/assembly_icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/bubble.png" afterPath="$PROJECT_DIR$/public/img/bubble.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/credit.png" afterPath="$PROJECT_DIR$/public/img/credit.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/credit_icon.png" afterPath="$PROJECT_DIR$/public/img/credit_icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/delivery-.png" afterPath="$PROJECT_DIR$/public/img/delivery-.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/delivery.png" afterPath="$PROJECT_DIR$/public/img/delivery.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/designer.jpg" afterPath="$PROJECT_DIR$/public/img/designer.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/eko.png" afterPath="$PROJECT_DIR$/public/img/eko.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/footer_img.jpg" afterPath="$PROJECT_DIR$/public/img/footer_img.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/guara.png" afterPath="$PROJECT_DIR$/public/img/guara.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/head_img.jpg" afterPath="$PROJECT_DIR$/public/img/head_img.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/heart.png" afterPath="$PROJECT_DIR$/public/img/heart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/img-01.jpg" afterPath="$PROJECT_DIR$/public/img/img-01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/img-02.jpg" afterPath="$PROJECT_DIR$/public/img/img-02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/img-03.png" afterPath="$PROJECT_DIR$/public/img/img-03.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/img-04.jpg" afterPath="$PROJECT_DIR$/public/img/img-04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/img-05.png" afterPath="$PROJECT_DIR$/public/img/img-05.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/kitchen-1.jpeg" afterPath="$PROJECT_DIR$/public/img/kitchen-1.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="$PROJECT_DIR$/public/img/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/magnifier.png" afterPath="$PROJECT_DIR$/public/img/magnifier.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/mail.png" afterPath="$PROJECT_DIR$/public/img/mail.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/mts.png" afterPath="$PROJECT_DIR$/public/img/mts.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/price-08.png" afterPath="$PROJECT_DIR$/public/img/price-08.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/price-13.png" afterPath="$PROJECT_DIR$/public/img/price-13.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/quality.png" afterPath="$PROJECT_DIR$/public/img/quality.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/smile.png" afterPath="$PROJECT_DIR$/public/img/smile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/time.png" afterPath="$PROJECT_DIR$/public/img/time.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/velcom.jpg" afterPath="$PROJECT_DIR$/public/img/velcom.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/velcom.png" afterPath="$PROJECT_DIR$/public/img/velcom.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/worker.png" afterPath="$PROJECT_DIR$/public/img/worker.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/advantages.css" afterPath="$PROJECT_DIR$/public/styles/advantages.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/contacts.css" afterPath="$PROJECT_DIR$/public/styles/contacts.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/designer.css" afterPath="$PROJECT_DIR$/public/styles/designer.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/footer.css" afterPath="$PROJECT_DIR$/public/styles/footer.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/header.css" afterPath="$PROJECT_DIR$/public/styles/header.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/how-it-works.css" afterPath="$PROJECT_DIR$/public/styles/how-it-works.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/mentions.css" afterPath="$PROJECT_DIR$/public/styles/mentions.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/navigation.css" afterPath="$PROJECT_DIR$/public/styles/navigation.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/pc-adapt.css" afterPath="$PROJECT_DIR$/public/styles/pc-adapt.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/questions.css" afterPath="$PROJECT_DIR$/public/styles/questions.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/simple-description.css" afterPath="$PROJECT_DIR$/public/styles/simple-description.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/washing-present.css" afterPath="$PROJECT_DIR$/public/styles/washing-present.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/why-we.css" afterPath="$PROJECT_DIR$/public/styles/why-we.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/prompt-circle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/styles/return-call.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/return-call.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/html/header.html" afterPath="$PROJECT_DIR$/public/html/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alexyfree.github.io.iws" />
@@ -422,21 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/html/contacts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -445,8 +43,38 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/html/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            <state vertical-scroll-proportion="-7.5">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="return-call.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/html/return-call.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5957944">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="washing-present.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/styles/washing-present.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -455,74 +83,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="designer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/html/designer.html">
+      <file leaf-file-name="return-call.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/styles/return-call.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="examples.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/html/examples.html">
+      <file leaf-file-name="prompt-circle.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/prompt-circle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.490196">
-              <caret line="67" column="69" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="how-it-works.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/html/how-it-works.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.666667">
-              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="questions.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/html/questions.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="washing-present.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/html/washing-present.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.034168564">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple-description.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/html/simple-description.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+            <state vertical-scroll-proportion="-2.5">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -533,9 +115,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="Html5" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -545,8 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/styles/roboto.css" />
-        <option value="$PROJECT_DIR$/html.html" />
         <option value="$PROJECT_DIR$/html/html.html" />
         <option value="$PROJECT_DIR$/styles/mention.css" />
         <option value="$PROJECT_DIR$/html/mention.html" />
@@ -584,16 +164,20 @@
         <option value="$PROJECT_DIR$/html/contacts.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/views/index.html" />
-        <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/public/html/contacts.html" />
         <option value="$PROJECT_DIR$/public/html/designer.html" />
         <option value="$PROJECT_DIR$/public/html/examples.html" />
         <option value="$PROJECT_DIR$/public/html/how-it-works.html" />
         <option value="$PROJECT_DIR$/public/html/questions.html" />
         <option value="$PROJECT_DIR$/public/html/simple-description.html" />
+        <option value="$PROJECT_DIR$/public/html/header.html" />
         <option value="$PROJECT_DIR$/public/html/washing-present.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/public/js/app.js" />
+        <option value="$PROJECT_DIR$/public/styles/return-call.css" />
+        <option value="$PROJECT_DIR$/public/html/prompt-circle.html" />
+        <option value="$PROJECT_DIR$/public/html/return-call.html" />
       </list>
     </option>
   </component>
@@ -662,6 +246,42 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alexyfree.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alexyfree.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alexyfree.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alexyfree.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -683,8 +303,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -766,9 +386,8 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3442623" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3442623" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329235" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.4949495" order="0" side_tool="false" content_ui="combo" />
@@ -779,6 +398,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -801,28 +421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/styles/navigation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="84" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -919,9 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="62" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -981,14 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/styles/washing-present.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/styles/mentions.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1001,7 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="79" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,9 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7300885">
           <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,9 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53097343">
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1069,9 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.0619469">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49778762">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1093,21 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07009346">
           <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,31 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03318584">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/html/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1147,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.375">
           <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
           <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1163,13 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.490196">
           <caret line="67" column="69" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.666667">
           <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
           <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1193,14 +718,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/html/washing-present.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.034168564">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="100" selection-start-line="4" selection-start-column="7" selection-end-line="5" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/washing-present.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/prompt-circle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/return-call.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/return-call.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5957944">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
           <folding />
         </state>
       </provider>
