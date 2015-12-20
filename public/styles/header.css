@@ -54,6 +54,15 @@ li{
     margin: 11px 58px;
 }
 
+.header .velcom{
+    padding-right: 4px;
+}
+
+.header .mts{
+    padding-right: 5px;
+    padding-left: 2px;
+}
+
 @media (max-width: 1366px){
     .header .header-logo img{
         width: 37%;

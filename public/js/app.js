@@ -41,7 +41,13 @@ alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http', '$sce', '$rootSco
             "/img/photos/23.jpg",
             "/img/photos/24.jpg",
             "/img/photos/25.jpg",
-            "/img/photos/26.jpg"
+            "/img/photos/26.jpg",
+            "/img/photos/27.jpg",
+            "/img/photos/28.jpg",
+            "/img/photos/29.jpg",
+            "/img/photos/30.jpg",
+            "/img/photos/31.jpg",
+            "/img/photos/32.jpg"
         ];
 
         $scope.limitPhotos = 16;
@@ -49,30 +55,31 @@ alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http', '$sce', '$rootSco
         $scope.videos = [
             {
                 url: $sce.trustAsResourceUrl("https://www.youtube.com/embed/Lohbm_pVqeU"),
-                description: "«У Анатолия была сложная и нестандартная идея. Было много ограничений и «подводных" +
-                " камней». Но не смотря на это, всё было реализовано до мельчайших деталей»",
+                description: "«У Екатерины была идея расположить кухню вдоль всех стен не смотря на существующий " +
+                "нестандартный выступ. Предпочтения были учтены и в итоге получилась красивая, функциональная и " +
+                "очень удобная кухня.»",
                 author: "Иван Иванкевич, дизайнер ЧП «Алсток»",
-                param1: "Площадь: 16м2;",
-                param2: "Сроки выполнения: 11 дней;",
-                param3: "Материалы отделки: стекло, белый мрамор;"
+                param1: "Площадь: 20м2;",
+                param2: "Сроки выполнения: 2 недели;",
+                param3: "Материалы отделки: ДСП, пластик, тонированное стекло в аллюминиевой раме;"
             },
             {
                 url: $sce.trustAsResourceUrl("https://www.youtube.com/embed/opWtf7IR4wY"),
-                description: "«У Анатолия была сложная и нестандартная идея. Было много ограничений и «подводных" +
-                " камней». Но не смотря на это, всё было реализовано до мельчайших деталей»",
+                description: "«Не смотря на ограниченность пространства и благодаря тому, что был задействован каждый" +
+                " свободный сантиметр, кухню Елены удалось сделать максимально функциональной и органичной.»",
                 author: "Иван Иванкевич, дизайнер ЧП «Алсток»",
-                param1: "Площадь: 16м2;",
-                param2: "Сроки выполнения: 11 дней;",
-                param3: "Материалы отделки: стекло, белый мрамор;"
+                param1: "Площадь: 12м2;",
+                param2: "Сроки выполнения: 2 недели;",
+                param3: "Материалы отделки: ДСП, скинали из стекла;"
             },
             {
                 url: $sce.trustAsResourceUrl("https://www.youtube.com/embed/5Nk5kj0k5Kw"),
-                description: "«У Анатолия была сложная и нестандартная идея. Было много ограничений и «подводных" +
-                " камней». Но не смотря на это, всё было реализовано до мельчайших деталей»",
+                description: "«На кухне Ольги были \"подводные камни\" в виде не только счётчика газа, но и газового" +
+                " котла. Не смотря на все сложности кухню получилась эстетически привлекательной и удобной в эксплуатации.»",
                 author: "Иван Иванкевич, дизайнер ЧП «Алсток»",
-                param1: "Площадь: 16м2;",
+                param1: "Площадь: 13м2;",
                 param2: "Сроки выполнения: 11 дней;",
-                param3: "Материалы отделки: стекло, белый мрамор;"
+                param3: "Материалы отделки: ДСП, пластик;"
             }
         ];
 
@@ -110,7 +117,17 @@ alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http', '$sce', '$rootSco
             $scope.open('html/want-this-kitchen.html');
         };
 
+        $scope.openExampleModalVideo = function(desc, exUrl){
+            $rootScope.kitchenExample = desc;
+            $rootScope.kitchenExampleUrl = exUrl;
+            $scope.open('html/want-this-kitchen-video.html');
+        };
+
         $scope.sendEmail = function(desc){
+            /*if(!$(".share").valid()){
+                return false;
+            }
+            console.log($(".share").valid());*/
             console.log("sendEmail");
             $scope.dataEmail.description = desc;
             var req = {
