@@ -2,8 +2,8 @@
 
 var alstock = angular.module('alstockApp', ['ui.bootstrap']);
 
-alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http',
-    function ($scope, $uibModal, $http) {
+alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http', '$sce',
+    function ($scope, $uibModal, $http, $sce) {
         var currentActiveTab = 1;
         $scope.dataEmail = {
             name: "",
@@ -12,6 +12,66 @@ alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http',
             question: "",
             description: ""
         };
+
+        $scope.photos = [
+            "/img/photos/1.jpg",
+            "/img/photos/2.jpg",
+            "/img/photos/3.jpg",
+            "/img/photos/4.jpg",
+            "/img/photos/5.jpg",
+            "/img/photos/6.jpg",
+            "/img/photos/7.jpg",
+            "/img/photos/8.jpg",
+            "/img/photos/9.jpg",
+            "/img/photos/10.jpg",
+            "/img/photos/11.jpg",
+            "/img/photos/12.jpg",
+            "/img/photos/13.jpg",
+            "/img/photos/14.jpg",
+            "/img/photos/15.jpg",
+            "/img/photos/16.jpg",
+            "/img/photos/17.jpg",
+            "/img/photos/18.jpg",
+            "/img/photos/19.jpg",
+            "/img/photos/20.jpg",
+            "/img/photos/21.jpg",
+            "/img/photos/22.jpg",
+            "/img/photos/23.jpg",
+            "/img/photos/24.jpg",
+            "/img/photos/25.jpg",
+            "/img/photos/26.jpg"
+        ];
+
+        $scope.videos = [
+            {
+                url: $sce.trustAsResourceUrl("https://www.youtube.com/embed/Lohbm_pVqeU"),
+                description: "«У Анатолия была сложная и нестандартная идея. Было много ограничений и «подводных" +
+                " камней». Но не смотря на это, всё было реализовано до мельчайших деталей»",
+                author: "Иван Иванкевич, дизайнер ЧП «Алсток»",
+                param1: "Площадь: 16м2;",
+                param2: "Сроки выполнения: 11 дней;",
+                param3: "Материалы отделки: стекло, белый мрамор;"
+            },
+            {
+                url: $sce.trustAsResourceUrl("https://www.youtube.com/embed/opWtf7IR4wY"),
+                description: "«У Анатолия была сложная и нестандартная идея. Было много ограничений и «подводных" +
+                " камней». Но не смотря на это, всё было реализовано до мельчайших деталей»",
+                author: "Иван Иванкевич, дизайнер ЧП «Алсток»",
+                param1: "Площадь: 16м2;",
+                param2: "Сроки выполнения: 11 дней;",
+                param3: "Материалы отделки: стекло, белый мрамор;"
+            },
+            {
+                url: $sce.trustAsResourceUrl("https://www.youtube.com/embed/5Nk5kj0k5Kw"),
+                description: "«У Анатолия была сложная и нестандартная идея. Было много ограничений и «подводных" +
+                " камней». Но не смотря на это, всё было реализовано до мельчайших деталей»",
+                author: "Иван Иванкевич, дизайнер ЧП «Алсток»",
+                param1: "Площадь: 16м2;",
+                param2: "Сроки выполнения: 11 дней;",
+                param3: "Материалы отделки: стекло, белый мрамор;"
+            }
+        ];
+
         $scope.setActiveNavigation = function(number, type){
             if(type === "click"){
                 $("nav>ul>li:nth-child(" + currentActiveTab + ")>div").removeClass("arrow-right");
