@@ -1,0 +1,34 @@
+<form class="want-this" ng-show="!isSuccessSendEmail">
+    <!--<div class="close-modal" ng-click="close()">&times;</div>-->
+    <img src="{{$root.kitchenExampleUrl}}"/>
+    <div class="head">Хотите себе такую же кухню?</div><br>
+    <div class="line"></div>
+    <div class="text">Введите свои контактные данные и наши специалисты рассчитают для Вас стоимость такой работы</div>
+    <ul>
+        <li>
+            <div>ВАШЕ ИМЯ:</div>
+            <input type="text" placeholder="Как к вам обращаться" ng-model="data.name">
+        </li>
+        <li>
+            <div>НОМЕР ТЕЛЕФОНА*:</div>
+            <input type="tel" placeholder="+375" ng-model="data.phone">
+        </li>
+    </ul>
+    <button type="submit" ng-click="sendEmail('Заказать рассчёт');">Заказать рассчёт</button><br>
+</form>
+
+<ng-include class="return-call-prompt-want-this" src="'html/prompt-circle.html'"></ng-include>
+<style>
+    .modal-dialog{
+        width: 602px;
+        margin: 4% 27%;
+    }
+
+    .promt{
+        margin: 14px 0;
+    }
+
+    .promt .circle{
+        margin-left: 41%;
+    }
+    </style>

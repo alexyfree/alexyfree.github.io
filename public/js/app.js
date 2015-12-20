@@ -2,8 +2,8 @@
 
 var alstock = angular.module('alstockApp', ['ui.bootstrap']);
 
-alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http', '$sce',
-    function ($scope, $uibModal, $http, $sce) {
+alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http', '$sce', '$rootScope',
+    function ($scope, $uibModal, $http, $sce, $rootScope) {
         var currentActiveTab = 1;
         $scope.dataEmail = {
             name: "",
@@ -12,6 +12,8 @@ alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http', '$sce',
             question: "",
             description: ""
         };
+
+        $rootScope.kitchenExample = "";
 
         $scope.photos = [
             "/img/photos/1.jpg",
@@ -102,6 +104,12 @@ alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http', '$sce',
             $scope.open('html/return-call.html');
         };
 
+        $scope.openExampleModal = function(desc, exUrl){
+            $rootScope.kitchenExample = desc;
+            $rootScope.kitchenExampleUrl = exUrl;
+            $scope.open('html/want-this-kitchen.html');
+        };
+
         $scope.sendEmail = function(desc){
             console.log("sendEmail");
             $scope.dataEmail.description = desc;
@@ -130,8 +138,8 @@ alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http', '$sce',
         };
     }]);
 
-alstock.controller('ModalCtrl', ['$scope', '$http', '$uibModalInstance',
-    function ($scope, $http, $uibModalInstance) {
+alstock.controller('ModalCtrl', ['$scope', '$http', '$uibModalInstance', '$rootScope',
+    function ($scope, $http, $uibModalInstance, $rootScope) {
         $scope.open = true;
         $scope.isSuccessSendEmail = false;
 
@@ -145,7 +153,7 @@ alstock.controller('ModalCtrl', ['$scope', '$http', '$uibModalInstance',
 
         $scope.sendEmail = function(desc){
             console.log("sendEmail");
-            $scope.data.description = desc;
+            $scope.data.description = $rootScope.kitchenExample ? $rootScope.kitchenExample : desc;
             var req = {
                 method: 'POST',
                 url: '/send-email?name=' + $scope.data.name + '&phone=' + $scope.data.phone +
@@ -156,6 +164,7 @@ alstock.controller('ModalCtrl', ['$scope', '$http', '$uibModalInstance',
             $http(req).then(
                 function(data){
                     $scope.isSuccessSendEmail = true;
+                    $("iframe").animate({ scrollTop: $("iframe").height() }, "slow");
                 },
                 function(error){console.log("error");});
         };
@@ -169,6 +178,8 @@ alstock.controller('ModalCtrl', ['$scope', '$http', '$uibModalInstance',
 
         $scope.close = function(){
             $scope.open = false;
+            $rootScope.kitchenExample = "";
+                $rootScope.kitchenExampleUrl = "";
             $uibModalInstance.dismiss('cancel');
         }
     }]);

@@ -5,7 +5,9 @@
         Фотографии примеров наших работ</div>
     <div class="col-md-12 col-sm-12 col-xs-12 work-list">
         <div class="col-md-12 col-sm-12 col-xs-12 for-padding">
-            <div class="col-md-3 col-sm-6 col-xs-12 work-space" ng-repeat="photo in photos" ng-show="$index < limitPhotos">
+            <div class="col-md-3 col-sm-6 col-xs-12 work-space"
+                 ng-click="openExampleModal('Хочу такую же кухню из примеров фотографий. Фотография номер: ' + ($index + 1), photo)"
+                 ng-repeat="photo in photos" ng-show="$index < limitPhotos">
                 <a>
                     <div class="featured-img" style="background: url({{photo}}) no-repeat;
                     background-size: cover;">
@@ -19,6 +21,6 @@
         </div>
     </div>
 
-    <button ng-click="limitPhotos = photos.length" class="show-more-examples" ng-show="limitPhotos < photos.length">Показать ещё</button>
-    <button ng-click="limitPhotos = 16" class="show-more-examples" ng-show="limitPhotos === photos.length">Скрыть остальные</button>
+    <button ng-click="limitPhotos = limitPhotos + 4" class="show-more-examples" ng-show="limitPhotos < photos.length">Показать ещё</button>
+    <button ng-click="limitPhotos = 16" class="show-more-examples" ng-show="limitPhotos >= photos.length">Скрыть остальные</button>
 </div>
