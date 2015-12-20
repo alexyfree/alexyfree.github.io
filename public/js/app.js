@@ -42,6 +42,8 @@ alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http', '$sce',
             "/img/photos/26.jpg"
         ];
 
+        $scope.limitPhotos = 16;
+
         $scope.videos = [
             {
                 url: $sce.trustAsResourceUrl("https://www.youtube.com/embed/Lohbm_pVqeU"),

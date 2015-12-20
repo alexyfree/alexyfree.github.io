@@ -38,6 +38,10 @@
     height: 100%;
 }
 
+.work-space{
+    padding-bottom: 32px;
+}
+
 .work-space > a{
     color: black;
 }

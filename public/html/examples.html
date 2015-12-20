@@ -5,67 +5,9 @@
         Фотографии примеров наших работ</div>
     <div class="col-md-12 col-sm-12 col-xs-12 work-list">
         <div class="col-md-12 col-sm-12 col-xs-12 for-padding">
-            <div class="col-md-4 col-sm-6 col-xs-12 work-space">
-                <a href="/img/photos/1.jpg" data-lightbox="image-1">
-                    <div class="featured-img" style="background: url(/img/photos/1.jpg) no-repeat;
-                    background-size: cover;">
-                        <div class="layer-for-image"></div>
-                    </div>
-                    <div class="image-hover">
-                    </div>
-                    <h4><img src="/img/heart.png"/><span>Хочу такую же</span></h4>
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 work-space">
-                <a href="/img/photos/1.jpg" data-lightbox="image-1">
-                    <div class="featured-img" style="background: url(/img/photos/1.jpg) no-repeat;
-                    background-size: cover;">
-                        <div class="layer-for-image"></div>
-                    </div>
-                    <div class="image-hover">
-                    </div>
-                    <h4><img src="/img/heart.png"/><span>Хочу такую же</span></h4>
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 work-space">
-                <a href="/img/photos/1.jpg" data-lightbox="image-1">
-                    <div class="featured-img" style="background: url(/img/photos/1.jpg) no-repeat;
-                    background-size: cover;">
-                        <div class="layer-for-image"></div>
-                    </div>
-                    <div class="image-hover">
-                    </div>
-                    <h4><img src="/img/heart.png"/><span>Хочу такую же</span></h4>
-                </a>
-            </div>
-        </div>
-
-        <div class="col-md-12 col-sm-12 col-xs-12 for-padding">
-            <div class="col-md-4 col-sm-6 col-xs-12 work-space">
-                <a href="/img/photos/1.jpg" data-lightbox="image-1">
-                    <div class="featured-img" style="background: url(/img/photos/1.jpg) no-repeat;
-                    background-size: cover;">
-                        <div class="layer-for-image"></div>
-                    </div>
-                    <div class="image-hover">
-                    </div>
-                    <h4><img src="/img/heart.png"/><span>Хочу такую же</span></h4>
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 work-space">
-                <a href="/img/photos/1.jpg" data-lightbox="image-1">
-                    <div class="featured-img" style="background: url(/img/photos/1.jpg) no-repeat;
-                    background-size: cover;">
-                        <div class="layer-for-image"></div>
-                    </div>
-                    <div class="image-hover">
-                    </div>
-                    <h4><img src="/img/heart.png"/><span>Хочу такую же</span></h4>
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 work-space">
-                <a href="/img/photos/1.jpg" data-lightbox="image-1">
-                    <div class="featured-img" style="background: url(/img/photos/1.jpg) no-repeat;
+            <div class="col-md-3 col-sm-6 col-xs-12 work-space" ng-repeat="photo in photos" ng-show="$index < limitPhotos">
+                <a>
+                    <div class="featured-img" style="background: url({{photo}}) no-repeat;
                     background-size: cover;">
                         <div class="layer-for-image"></div>
                     </div>
@@ -77,5 +19,6 @@
         </div>
     </div>
 
-    <button ng-click="openMoreExamples = !openMoreExamples" class="show-more-examples">Показать ещё</button>
+    <button ng-click="limitPhotos = photos.length" class="show-more-examples" ng-show="limitPhotos < photos.length">Показать ещё</button>
+    <button ng-click="limitPhotos = 16" class="show-more-examples" ng-show="limitPhotos === photos.length">Скрыть остальные</button>
 </div>
