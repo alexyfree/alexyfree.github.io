@@ -7,39 +7,326 @@
     <meta http-equiv='pragma' content='no-cache'>
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <title>АЛСТОК</title>
-    <script src="/bower_components/angular/angular.min.js"></script>
-    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
-    <script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-    <script src="/bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="/bower_components/jquery-validation/dist/additional-methods.min.js"></script>
-    <script src="/js/app.js"></script>
+    <script src="public/bower_components/angular/angular.min.js"></script>
+    <script src="public/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="public/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="public/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="public/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="public/bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="public/bower_components/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="public/js/app.js"></script>
 
-    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="/bower_components/angular-bootstrap/ui-bootstrap-csp.css">
+    <link rel="stylesheet" href="public/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="public/bower_components/angular-bootstrap/ui-bootstrap-csp.css">
 
-    <link rel="stylesheet" href="/styles/header.css">
-    <link rel="stylesheet" href="/styles/navigation.css">
-    <link rel="stylesheet" href="/styles/simple-description.css">
-    <link rel="stylesheet" href="/styles/why-we.css">
-    <link rel="stylesheet" href="/styles/examples.css">
-    <link rel="stylesheet" href="/styles/washing-present.css">
-    <link rel="stylesheet" href="/styles/mentions.css">
-    <link rel="stylesheet" href="/styles/advantages.css">
-    <link rel="stylesheet" href="/styles/designer.css">
-    <link rel="stylesheet" href="/styles/how-it-works.css">
-    <link rel="stylesheet" href="/styles/contacts.css">
-    <link rel="stylesheet" href="/styles/questions.css">
-    <link rel="stylesheet" href="/styles/footer.css">
-    <link rel="stylesheet" href="/styles/modal.css">
-    <link rel="stylesheet" href="/styles/pc-adapt.css">
+    <link rel="stylesheet" href="public/styles/header.css">
+    <link rel="stylesheet" href="public/styles/navigation.css">
+    <link rel="stylesheet" href="public/styles/simple-description.css">
+    <link rel="stylesheet" href="public/styles/why-we.css">
+    <link rel="stylesheet" href="public/styles/examples.css">
+    <link rel="stylesheet" href="public/styles/washing-present.css">
+    <link rel="stylesheet" href="public/styles/mentions.css">
+    <link rel="stylesheet" href="public/styles/advantages.css">
+    <link rel="stylesheet" href="public/styles/designer.css">
+    <link rel="stylesheet" href="public/styles/how-it-works.css">
+    <link rel="stylesheet" href="public/styles/contacts.css">
+    <link rel="stylesheet" href="public/styles/questions.css">
+    <link rel="stylesheet" href="public/styles/footer.css">
+    <link rel="stylesheet" href="public/styles/modal.css">
+    <link rel="stylesheet" href="public/styles/pc-adapt.css">
 </head>
 <body ng-controller="AppCtrl">
-<ng-include src="'html/header.html'"></ng-include>
-<!--<ng-include src="'html/navigation.html'"></ng-include>-->
-<ng-include src="'html/simple-description.html'"></ng-include>
+<!-- header -->
+<header class="header row">
+    <div class="col-md-3 header-logo">
+        <img src="http://mebelvmeste.by/wp-content/uploads/2015/02/chup_alstok.jpg" />
+    </div>
+    <div class="col-md-3 header-guarant">
+        <ul>
+            <li>
+                Гарантия <b>24 месяца;</b>
+            </li>
+            <li>
+                Срок изготовления <b>до 14 дней;</b>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-3 header-phones">
+        <ul>
+            <li>
+                <img class="mts" src="public/img/mts.png"/>+375(029)379-55-94
+            </li>
+            <li>
+                <img class="velcom" src="public/img/velcom.png"/>+375(029)560-20-79
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-3 header-recall-button">
+        <button ng-click="returnEmail()">Заказать обратный звонок</button>
+    </div>
+</header>
+
+<!--navigation-->
+<!--<nav class="collapse navbar-collapse" id="myNavbar" role="navigation">
+    <ul class="nav navbar-nav navbar menu">
+        <li class="col-md-2 row" ng-mouseover="setActiveNavigation(1, 'over')" ng-click="setActiveNavigation(1, 'click')" ng-mouseleave="removeActiveNavigation(1)"><div class="arrow-right"></div><a href="#kitchens" class="active">Кухни</a></li>
+        <li class="col-md-2" ng-mouseover="setActiveNavigation(2, 'over')" ng-click="setActiveNavigation(2, 'click')" ng-mouseleave="removeActiveNavigation(2)"><div></div><a href="#wardrobes">Шкафы-купе</a></li>
+        <li class="col-md-2" ng-mouseover="setActiveNavigation(3, 'over')" ng-click="setActiveNavigation(3, 'click')" ng-mouseleave="removeActiveNavigation(3)"><div></div><a href="#childrens">Детские</a></li>
+        <li class="col-md-2" ng-mouseover="setActiveNavigation(4, 'over')" ng-click="setActiveNavigation(4, 'click')" ng-mouseleave="removeActiveNavigation(4)"><div></div><a href="#slides">Горки и стенки</a></li>
+        <li class="col-md-2" ng-mouseover="setActiveNavigation(5, 'over')" ng-click="setActiveNavigation(5, 'click')" ng-mouseleave="removeActiveNavigation(5)"><div></div><a href="#hallway">Прихожие</a></li>
+        <li class="col-md-2" ng-mouseover="setActiveNavigation(6, 'over')" ng-click="setActiveNavigation(6, 'click')" ng-mouseleave="removeActiveNavigation(6)"><div></div><a href="#office">Офисная мебель</a></li>
+    </ul>
+</nav>-->
+
+<!--simple-description-->
+<img class="produce-image" src="/public/img/head_img.jpg"/>
+<div class="produce-text">
+    <span class="text1">Производство и монтаж кухонь</span><br>
+    <span class="text2">по индивидуальным проектам</span><br>
+    <span class="text3">в <span class="inner-bold-text">Минске</span> и <span class="inner-bold-text">пригородах</span></span>
+</div>
+<ul class="nav navbar-nav navbar menu produce-menu">
+    <li class="col-md-2"><img src="public/img/delivery-.png"/>Бесплатная доставка</li>
+    <li class="col-md-2"><img src="public/img/assembly_icon.png"/>Бесплатная сборка</li>
+    <li class="col-md-2"><img src="public/img/credit_icon.png"/>Беспроцентная рассрочка</li>
+</ul>
+<!--why-we-->
+<img class="why-we-image" src="public/img/img-02.jpg"/>
+<div class="why-we">
+    <div class="text-first">Почему выгодно заказать кухню у нас</div>
+    <div class="line"></div>
+    <ul class="table">
+        <li><img src="public/img/smile.png"/><div>За 2015 год <b>более 56 довольных клиентов;</b></div></li>
+        <li><img src="public/img/time.png"/><div><b>Выполнение заказа точно в срок. </b>Вы можете довериться нам,<br> что ваша кухня будет установлена в оговоренный<br>срок, без задержек по времени;</div></li>
+        <li><img src="public/img/credit.png"/><div>Беспроцентная <b>рассрочка</b> на 6 месяцев;</div></li>
+        <li><img src="public/img/worker.png"/><div><b>Бесплатный выезд замерщика</b> в течение 24 часов;</div></li>
+        <li><img src="public/img/price-08.png"/><div>Одни из лучших соотношения цены и качества. </br><b>У нас собственное производство.</b><br> Что позволяет вам сэкономить деньги.</div></li>
+    </ul>
+</div>
+
+<!--examples-->
+<div class="example text-center">
+    <div class="head">ПРИМЕРЫ РАБОТ</div>
+    <div class="line"></div>
+    <div class="simple-text"><b>Мы делаем кухни в любом стиле - от простых до эксклюзивных</b><br>
+        Фотографии примеров наших работ</div>
+    <div class="col-md-12 col-sm-12 col-xs-12 work-list">
+        <div class="col-md-12 col-sm-12 col-xs-12 for-padding">
+            <div class="col-md-3 col-sm-6 col-xs-12 work-space"
+                 ng-click="openExampleModal('Хочу такую же кухню из примеров фотографий. Фотография номер: ' + ($index + 1), photo)"
+                 ng-repeat="photo in photos" ng-show="$index < limitPhotos">
+                <a>
+                    <div class="featured-img" style="background: url({{photo}}) no-repeat;
+                    background-size: cover;">
+                        <div class="layer-for-image"></div>
+                    </div>
+                    <div class="image-hover">
+                    </div>
+                    <h4><img src="public/img/heart.png"/><span>Хочу такую же</span></h4>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <button ng-click="limitPhotos = limitPhotos + 8" class="show-more-examples" ng-show="limitPhotos < photos.length">Показать ещё</button>
+    <button ng-click="limitPhotos = 16" class="show-more-examples" ng-show="limitPhotos >= photos.length">Скрыть остальные</button>
+</div>
+<!--washing-present-->
+<div>
+    <img src="public/img/action_img.png"/>
+    <form class="share" ng-submit="sendEmail('Мойка для кухни в подарок')">
+        <span class="text1">АКЦИЯ:</span><br>
+        <span class="text2">МОЙКА ДЛЯ КУХНИ В ПОДАРОК!</span><br>
+        <div class="text3">Закажите разработку 3d макета кухни<br> и получите мойку в подарок.</div>
+        <span class="text4">Только <span>до конца месяца</span></span><br>
+        <ul>
+            <li>
+                <span>ВАШЕ ИМЯ:</span>
+                <input type="text" placeholder="Как к вам обращаться" ng-model="dataEmail.name">
+            </li>
+            <li>
+                <span>НОМЕР ТЕЛЕФОНА*:</span>
+                <input type="tel" placeholder="+375(29)379-55-94" ng-model="dataEmail.phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$">
+            </li>
+            <li>
+                <span>E-MAIL:</span>
+                <input type="email" placeholder="Отправим вам на почту что-то клёвое" ng-model="dataEmail.email">
+            </li>
+        </ul>
+        <button type="submit" class="get-present">Получить подарок</button><br>
+        <span class="text5">*телефон будет являться купоном для получения подарка</span>
+    </form>
+</div>
+<!--mentions-->
+<div class="mentions">
+    <div class="text-head">ОТЗЫВЫ НАШИХ КЛИЕНТОВ</div>
+    <div class="line"></div>
+    <ul>
+        <li ng-repeat="video in videos">
+            <iframe height="380px" class="col-md-7" src="{{video.url}}" frameborder="0" allowfullscreen>
+            </iframe>
+            <div class="col-md-5">
+                <div class="text-description">{{video.description}}</div>
+                <div class="text-author"><i>{{video.author}}</i></div>
+                <div class="line"></div>
+                <div class="kitchen-parameters">
+                    <div class="parameter">{{video.param1}}</div>
+                    <div class="parameter">{{video.param2}}</div>
+                    <div class="parameter">{{video.param3}}</div>
+                </div>
+                <div class="cursor-pointer" ng-click="openExampleModalVideo('Хочу такую же кухню из отзывов. Ссылка на отзыв: ' + video.url, null)"><img src="public/img/heart.png"/><span class="wish-same">Хочу такую же</span></div>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--advantages-->
+<div class="advantages">
+    <div class="text-head">НАШИ ПРЕИМУЩЕСТВА</div>
+    <div class="line"></div>
+    <ul class="row">
+        <li class="col-md-3">
+            <img src="public/img/eko.png"/>
+            <div class="short-description">Экологичные материалы</div>
+            <div class="full-description">Все наши материалы ,из которых<br>мы делаем наши кухни и мебель, прошли<br>сертификацию и признаны<br>безопасными.</div>
+        </li>
+        <li class="col-md-3">
+            <img src="public/img/quality.png"/>
+            <div class="short-description">Качественная фурнитура</div>
+            <div class="full-description">Фурнитуру приобретаем у <br>немецкого производителя.<br>Она устойчива к износу<br> и прослужит вам долго.<br></div>
+        </li>
+        <li class="col-md-3">
+            <img src="public/img/price-13.png"/>
+            <div class="short-description">Лучшее соотношение<br>цены и качества</div>
+            <div class="full-description">Наше собственное производство<br>и проверенные поставщики материалов<br> позволяют нам производить кухни с <br>минимальной наценкой.</div>
+        </li>
+        <li class="col-md-3">
+            <img src="public/img/guara.png"/>
+            <div class="short-description">2 года гарантии</div>
+            <div class="full-description">Мы уверены в качестве наших<br>кухонь и даём такую гарантию<br>которую не каждый<br>даст в салонах Минска.</div>
+        </li>
+    </ul>
+</div>
+<!--designer-->
+<div class="designer-part">
+    <img src="public/img/designer.jpg"/>
+    <ul class="prepare">
+        <li class="general">Дизайнер Алексей подготовит для Вас:</li>
+        <li class="description">Три эскиза кухни;</li>
+        <li class="description">Рекомендации по подбору материалов и выбору цвета кухни;</li>
+        <li class="description">Расчёт времени изготовления и стоимость заказа</li>
+    </ul>
+    <form class="designer" ng-submit="sendEmail('Заказать бесплатную консультацию дизайнера')">
+        <div class="text1">Не определились<br>с дизайном?</div>
+        <div class="text2">Доверьтесь нашему профессионалу Алексею, <br>который создаст для вас бесплатно эксклюзивный проект.</div>
+        <ul class="form">
+            <li>
+                <span>ВАШЕ ИМЯ:</span>
+                <input type="text" placeholder="Как к вам обращаться" ng-model="dataEmail.name">
+            </li>
+            <li>
+                <span>НОМЕР ТЕЛЕФОНА*:</span>
+                <input type="tel" placeholder="+375(29)379-55-94" ng-model="dataEmail.phone">
+            </li>
+            <li>
+                <span>E-MAIL:</span>
+                <input type="email" placeholder="Отправим вам на почту что-то клёвое" ng-model="dataEmail.email">
+            </li>
+        </ul>
+        <button type="submit" class="consult">Заказать бесплатную консультацию</button><br>
+    </form>
+</div>
+<!--how-it-works-->
+<div class="how-it-works">
+    <div class="text-head">КАК С НАМИ РАБОТАТЬ</div>
+    <div class="line"></div>
+    <ul>
+        <li class="row">
+            <div class="col-md-5"></div>
+            <img class="col-md-1 img-right" src="public/img/1.png"/>
+            <div class="col-md-6 description-right">Оставляете заявку на сайте<br/><button class="request" ng-click="returnEmail()">Оставить заявку</button><br/>или по телефонам<br/> + 375 (29) 257 33 00 (VEL)<br/>+ 375 (29) 257 33 00 (MTC)</div>
+        </li>
+        <li class="vertical-line first"></li>
+        <li class="row">
+            <div class="col-md-6 description-left need-down">Наш консультант созванивается<br>с Вами, узнает все детали</div>
+            <img class="col-md-1 img-left" src="public/img/2.png"/>
+            <div class="col-md-5"></div>
+        </li>
+        <li class="vertical-line"></li>
+        <li class="row">
+            <div class="col-md-5"></div>
+            <img class="col-md-1 img-right" src="public/img/3.png"/>
+            <div class="col-md-6 description-right">К Вам выезжает бесплатно наш дизайнер, который<br/>исходя их Ваших предпочтений и особенностей<br/>помещения,<br/>подскажет наилучший вариант кухни</div>
+        </li>
+        <li class="vertical-line third"></li>
+        <li class="row">
+            <div class="col-md-6 description-left">К Вам приедут наши специалисты<br/>по монтажу, в удобное для Вас время<br/>и установят вашу новую кухню</div>
+            <img class="col-md-1 img-left" src="public/img/4.png"/>
+            <div class="col-md-5"></div>
+        </li>
+        <li class="vertical-line"></li>
+        <li class="row">
+            <div class="col-md-5"></div>
+            <img class="col-md-1 img-right" src="public/img/5.png"/>
+            <div class="col-md-6 description-right need-down">Убираем мусор после монтажа кухни<br/>и вы принимаете работу</div>
+        </li>
+        <li class="arrow"><img src="public/img/arrow_down.png"/></li>
+    </ul>
+    <img src="public/img/img-05.png" class="kitchen"/>
+</div>
+<!--contacts-->
+<div class="contacts row">
+    <div class="col-md-4">
+        <div class="contacts-data">
+            <div class="text-head">КОНТАКТЫ</div>
+            <div class="line"></div>
+            <div class="text">
+                <b>Частное предприятие «АЛСТОК»</b><br/>
+                УНП 691571649<br/><br/>
+                Минский район, д. Боровляны, ул. 40 лет Победы,<br/>
+                23а, оф. 207<br/><br/>
+                Связаться с нами<br/>
+                с <b>10:00</b> до <b>22:00</b> по телефонам<br/>
+                <img class="mts" src="public/img/mts.png"/>+375 (029) 560-20-79<br/>
+                <img class="velcom" src="public/img/velcom.png"/>+375 (029) 379-55-94<br/><br/>
+                или с помощью электронной почты<br/>
+                <img class="email" src="public/img/mail.png"/><a href="mailto:alstok@tut.by">alstok@tut.by</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <iframe src="https://www.google.ru/maps/embed?pb=!1m18!1m12!1m3!1d2345.722464535149!2d27.67710071554729!3d53.98995083400857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc8f9a5b796d9%3A0x98033754de221ced!2z0LLRg9C70ZbRhtCwIDQwINCz0L7QtCDQn9C10YDQsNC80L7Qs9GWIDIzLCDQkdCw0YDQsNGe0LvRj9C90YsgMjIzMDUz!5e0!3m2!1sru!2sby!4v1449393187390" width="850" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</div>
+<!--questions-->
+<div class="questions">
+    <img src="public/img/footer_img.jpg"/>
+    <form class="questions-form" ng-submit="sendEmail('Остались вопросы')">
+        <div class="text-head">Остались вопросы?</div>
+        <div class="line"></div>
+        <div class="text">Вы можете <a href="/">заказать обратный звонок</a><br/>или задать их через форму обратной связи</div>
+        <ul>
+            <li>
+                <span>E-MAIL или ТЕЛЕФОН</span>
+                <input type="text" ng-model="dataEmail.phone">
+            </li>
+            <li>
+                <span>ВАШ ВОПРОС</span>
+                <textarea ng-model="dataEmail.question"></textarea>
+            </li>
+        </ul>
+        <button type="submit" class="send-questions">Получить консультацию</button><br>
+    </form>
+</div>
+<!--footer-->
+<div class="footer row">
+    <div class="col-md-2 alstok">&copy; 2016 <b>ЧП «АЛСТОК»</b></div>
+    <div class="col-md-5"></div>
+    <div class="col-md-3 developer">Разработка и продвижение сайта: <a href="http://alexyfree.github.io/">Site.com</a></div>
+    <div class="col-md-2 dev-description">Создание потока клиентов<br/>для Вашего бизнеса</div>
+</div>
+
+<!--<ng-include src="'html/simple-description.html'"></ng-include>
 <ng-include src="'html/why-we.html'"></ng-include>
 <ng-include src="'html/examples.html'"></ng-include>
 <ng-include src="'html/washing-present.html'"></ng-include>
@@ -49,6 +336,6 @@
 <ng-include src="'html/how-it-works.html'"></ng-include>
 <ng-include src="'html/contacts.html'"></ng-include>
 <ng-include src="'html/questions.html'"></ng-include>
-<ng-include src="'html/footer.html'"></ng-include>
+<ng-include src="'html/footer.html'"></ng-include>-->
 </body>
 </html>

@@ -16,38 +16,38 @@ alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http', '$sce', '$rootSco
         $rootScope.kitchenExample = "";
 
         $scope.photos = [
-            "/img/photos/1.jpg",
-            "/img/photos/2.jpg",
-            "/img/photos/3.jpg",
-            "/img/photos/4.jpg",
-            "/img/photos/5.jpg",
-            "/img/photos/6.jpg",
-            "/img/photos/7.jpg",
-            "/img/photos/8.jpg",
-            "/img/photos/9.jpg",
-            "/img/photos/10.jpg",
-            "/img/photos/11.jpg",
-            "/img/photos/12.jpg",
-            "/img/photos/13.jpg",
-            "/img/photos/14.jpg",
-            "/img/photos/15.jpg",
-            "/img/photos/16.jpg",
-            "/img/photos/17.jpg",
-            "/img/photos/18.jpg",
-            "/img/photos/19.jpg",
-            "/img/photos/20.jpg",
-            "/img/photos/21.jpg",
-            "/img/photos/22.jpg",
-            "/img/photos/23.jpg",
-            "/img/photos/24.jpg",
-            "/img/photos/25.jpg",
-            "/img/photos/26.jpg",
-            "/img/photos/27.jpg",
-            "/img/photos/28.jpg",
-            "/img/photos/29.jpg",
-            "/img/photos/30.jpg",
-            "/img/photos/31.jpg",
-            "/img/photos/32.jpg"
+            "public/img/photos/1.jpg",
+            "public/img/photos/2.jpg",
+            "public/img/photos/3.jpg",
+            "public/img/photos/4.jpg",
+            "public/img/photos/5.jpg",
+            "public/img/photos/6.jpg",
+            "public/img/photos/7.jpg",
+            "public/img/photos/8.jpg",
+            "public/img/photos/9.jpg",
+            "public/img/photos/10.jpg",
+            "public/img/photos/11.jpg",
+            "public/img/photos/12.jpg",
+            "public/img/photos/13.jpg",
+            "public/img/photos/14.jpg",
+            "public/img/photos/15.jpg",
+            "public/img/photos/16.jpg",
+            "public/img/photos/17.jpg",
+            "public/img/photos/18.jpg",
+            "public/img/photos/19.jpg",
+            "public/img/photos/20.jpg",
+            "public/img/photos/21.jpg",
+            "public/img/photos/22.jpg",
+            "public/img/photos/23.jpg",
+            "public/img/photos/24.jpg",
+            "public/img/photos/25.jpg",
+            "public/img/photos/26.jpg",
+            "public/img/photos/27.jpg",
+            "public/img/photos/28.jpg",
+            "public/img/photos/29.jpg",
+            "public/img/photos/30.jpg",
+            "public/img/photos/31.jpg",
+            "public/img/photos/32.jpg"
         ];
 
         $scope.limitPhotos = 16;
@@ -108,19 +108,19 @@ alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http', '$sce', '$rootSco
         };
 
         $scope.returnEmail = function(){
-            $scope.open('html/return-call.html');
+            $scope.open('public/html/return-call.html');
         };
 
         $scope.openExampleModal = function(desc, exUrl){
             $rootScope.kitchenExample = desc;
             $rootScope.kitchenExampleUrl = exUrl;
-            $scope.open('html/want-this-kitchen.html');
+            $scope.open('public/html/want-this-kitchen.html');
         };
 
         $scope.openExampleModalVideo = function(desc, exUrl){
             $rootScope.kitchenExample = desc;
             $rootScope.kitchenExampleUrl = exUrl;
-            $scope.open('html/want-this-kitchen-video.html');
+            $scope.open('public/html/want-this-kitchen-video.html');
         };
 
         $scope.sendEmail = function(desc){
@@ -146,7 +146,7 @@ alstock.controller('AppCtrl', ['$scope', '$uibModal', '$http', '$sce', '$rootSco
                         question: "",
                         description: ""
                     };
-                    $scope.open('html/just-prompt-circle.html');
+                    $scope.open('public/html/just-prompt-circle.html');
                 },
                 function(error){
                     $scope.dataEmail = {};
